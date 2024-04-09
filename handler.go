@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 
-	slogcommon "github.com/samber/slog-common"
+	slogcommon "github.com/UVDuane/slog-common"
 	"github.com/slack-go/slack"
 )
 

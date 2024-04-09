@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 
-	slogslack "github.com/samber/slog-slack/v2"
+	slogslack "github.com/UVDuane/slog-slack/v2"
 )
 
 func main() {
@@ -26,4 +26,6 @@ func main() {
 		With("environment", "dev").
 		With("error", fmt.Errorf("an error")).
 		Error("A message")
+
+	time.Sleep(3 * time.Second)
 }
