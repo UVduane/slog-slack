@@ -1,4 +1,4 @@
-module github.com/UVDuane/slog-slack/v2
+module github.com/UVDuane/slog-slack
 
 go 1.20
 
